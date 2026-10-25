@@ -393,3 +393,7 @@ button { font-family: inherit; }
 html[dir="ltr"] body { direction: ltr; }
 html[dir="ltr"] .main-nav a::after { right: auto; left: 0; }
 html[dir="ltr"] .brand { align-items: flex-start; }
+/* اصلاح اندازه فونت اسم سلسله‌های طولانی در تایم‌لاین */
+.timeline-item .era {
+  font-size: 1.2rem; /* کمی کوچک‌تر تا کلمات طولانی جا بشن */
+}
