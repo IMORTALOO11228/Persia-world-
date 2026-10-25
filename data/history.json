@@ -10,8 +10,8 @@
       "capital_en": "Susa",
       "flag": "elam.svg",
       "map": "elam.jpg",
-      "description_fa": "عیلام یکی از کهن‌ترین و پایدارترین تمدن‌های فلات ایران بود که در جنوب غربی ایران (خوزستان امروزی) شکل گرفت و بیش از دو هزار سال در کنار بین‌النهرین دوام آورد. شهر شوش، پایتخت اصلی آن، به یکی از مهم‌ترین مراکز تمدنی جهان باستان تبدیل شد. عیلامی‌ها خط میخی مخصوص به خود را داشتند و در معماری پیشرفت چشمگیری کردند. شاهکار معماری آنان، زیگورات چغازنبیل است که در حدود ۱۲۵۰ پیش از میلاد به دستور اونتاش گال ساخته شد و از نخستین بناهای مذهبی چندطبقه جهان به شمار می‌رود. عیلام در دوره‌های مختلف قدرت گرفت و با تمدن‌های همسایه مانند سومر و بابل روابط تجاری و نظامی پیچیده‌ای داشت. سرانجام در سال ۵۳۹ پیش از میلاد، کوروش بزرگ با فتح عیلام، این تمدن کهن را در امپراتوری هخامنشی ادغام کرد.[reference:0][reference:1]",
-      "description_en": "Elam was one of the oldest and most enduring civilizations of the Iranian plateau, emerging in southwestern Iran (modern Khuzestan) and lasting for over two millennia alongside Mesopotamia. Susa, its capital, became a major center of ancient civilization. The Elamites developed their own cuneiform script and made significant advances in architecture. Their architectural masterpiece, the Chogha Zanbil ziggurat, was built around 1250 BC by order of Untash-Gal and is considered one of the world's earliest multi-tiered religious structures. Elam rose to power in various periods and had complex trade and military relations with neighboring civilizations like Sumer and Babylon. In 539 BC, Cyrus the Great conquered Elam, integrating it into the Achaemenid Empire."
+      "description_fa": "عیلام یکی از کهن‌ترین و پایدارترین تمدن‌های فلات ایران بود که در جنوب غربی ایران (خوزستان امروزی) شکل گرفت و بیش از دو هزار سال در کنار بین‌النهرین دوام آورد. شهر شوش، پایتخت اصلی آن، به یکی از مهم‌ترین مراکز تمدنی جهان باستان تبدیل شد. عیلامی‌ها خط میخی مخصوص به خود را داشتند و در معماری پیشرفت چشمگیری کردند. شاهکار معماری آنان، زیگورات چغازنبیل است که در حدود ۱۲۵۰ پیش از میلاد به دستور اونتاش گال ساخته شد و از نخستین بناهای مذهبی چندطبقه جهان به شمار می‌رود. سرانجام در سال ۵۳۹ پیش از میلاد، کوروش بزرگ با فتح عیلام، این تمدن کهن را در امپراتوری هخامنشی ادغام کرد.",
+      "description_en": "Elam was one of the oldest and most enduring civilizations of the Iranian plateau, emerging in southwestern Iran and lasting for over two millennia alongside Mesopotamia. Susa, its capital, became a major center of ancient civilization. The Elamites developed their own cuneiform script and made significant advances in architecture. Their masterpiece, the Chogha Zanbil ziggurat, was built around 1250 BC. In 539 BC, Cyrus the Great conquered Elam."
     },
     {
       "id": "media",
@@ -20,11 +20,11 @@
       "years_fa": "۶۷۸ – ۵۵۰ ق.م",
       "years_en": "678 – 550 BC",
       "capital_fa": "هگمتانه (همدان)",
-      "capital_en": "Ecbatana (Hamadan)",
+      "capital_en": "Ecbatana",
       "flag": "media.svg",
       "map": "media.jpg",
-      "description_fa": "مادها اولین حکومت آریایی یکپارچه در ایران بودند که در غرب و شمال غرب فلات ایران قدرت گرفتند. آنها با اتحاد قبایل مختلف، پادشاهی ماد را بنیان گذاشتند و پایتخت خود را هگمتانه (همدان امروزی) قرار دادند. مادها در اتحاد با بابل، امپراتوری آشور را سرنگون کردند و قلمرو خود را تا آسیای صغیر گسترش دادند. هووخشتر (کیاکسار)، سومین پادشاه ماد، حکومت را به اوج قدرت رساند و با تشکیل سپاهی منظم، زمینه‌ساز ظهور امپراتوری بزرگ هخامنشی شد. کاخ باشکوه هگمتانه در دوره مادها بنا نهاده شد و بعدها شاهان هخامنشی نیز در آن ساختمان‌هایی افزودند. سرانجام در سال ۵۵۰ پیش از میلاد، کوروش بزرگ با شکست آستیاگ (آخرین پادشاه ماد)، حکومت ماد را برچید و امپراتوری هخامنشی را بنیان نهاد.[reference:2][reference:3]",
-      "description_en": "The Medes were the first unified Aryan kingdom in Iran, rising to power in the western and northwestern Iranian plateau. They united various tribes to establish the Median kingdom with Ecbatana (modern Hamadan) as its capital. In alliance with Babylon, the Medes overthrew the Assyrian Empire and expanded their realm into Asia Minor. Cyaxares, the third Median king, brought the kingdom to its height and, by forming a regular army, paved the way for the rise of the great Achaemenid Empire. The magnificent palace of Ecbatana was founded during the Median period, and later Achaemenid kings added structures to it. In 550 BC, Cyrus the Great defeated Astyages, the last Median king, and founded the Achaemenid Empire."
+      "description_fa": "مادها اولین حکومت آریایی یکپارچه در ایران بودند که در غرب و شمال غرب فلات ایران قدرت گرفتند. آنها با اتحاد قبایل مختلف، پادشاهی ماد را بنیان گذاشتند و پایتخت خود را هگمتانه (همدان امروزی) قرار دادند. مادها در اتحاد با بابل، امپراتوری آشور را سرنگون کردند و قلمرو خود را تا آسیای صغیر گسترش دادند. سرانجام در سال ۵۵۰ پیش از میلاد، کوروش بزرگ با شکست آستیاگ (آخرین پادشاه ماد)، حکومت ماد را برچید.",
+      "description_en": "The Medes were the first unified Aryan kingdom in Iran. They united various tribes to establish the Median kingdom with Ecbatana as its capital. In alliance with Babylon, the Medes overthrew the Assyrian Empire and expanded their realm into Asia Minor. In 550 BC, Cyrus the Great defeated Astyages, the last Median king."
     },
     {
       "id": "achaemenid",
@@ -36,34 +36,8 @@
       "capital_en": "Pasargadae, Persepolis, Susa",
       "flag": "achaemenid.svg",
       "map": "achaemenid.jpg",
-      "description_fa": "امپراتوری هخامنشی، بزرگ‌ترین و باشکوه‌ترین امپراتوری تاریخ ایران باستان، توسط کوروش بزرگ بنیان گذاشته شد. این امپراتوری در اوج قدرت خود از دره سند در هند تا دریای اژه و مصر گسترده بود و بر بیش از ۴۰ درصد جمعیت جهان آن زمان حکومت می‌کرد. کوروش با فتح بابل در ۵۳۹ ق.م، منشور معروف خود را صادر کرد که به عنوان نخستین اعلامیه حقوق بشر شناخته می‌شود. داریوش بزرگ با ایجاد سیستم ساتراپی (استان‌داری)، راه شاهی به طول ۲۵۰۰ کیلومتر، و ضرب سکه، امپراتوری را به یک ماشین اداری بی‌نظیر تبدیل کرد. تخت جمشید، پایتخت تشریفاتی، نمادی از شکوه و هنر ایرانی است. در این دوره، هنر و معماری تلفیقی از سبک‌های مصری، یونانی و بین‌النهرینی با ذوق ایرانی پدید آمد. این امپراتوری سرانجام در سال ۳۳۰ پیش از میلاد توسط اسکندر مقدونی فتح شد.",
-      "description_en": "The Achaemenid Empire, the largest and most magnificent empire of ancient Iran, was founded by Cyrus the Great. At its height, it stretched from the Indus Valley in India to the Aegean Sea and Egypt, ruling over 40% of the world's population at the time. Cyrus, after conquering Babylon in 539 BC, issued his famous charter, recognized as the first declaration of human rights. Darius the Great transformed the empire into an unparalleled administrative machine by creating the satrapy system, the 2,500-kilometer Royal Road, and minting coins. Persepolis, the ceremonial capital, remains a symbol of Persian glory and art. During this period, art and architecture blended Egyptian, Greek, and Mesopotamian styles with Persian taste. The empire was finally conquered by Alexander the Great in 330 BC."
-    },
-    {
-      "id": "seleucid",
-      "name_fa": "سلوکیان",
-      "name_en": "Seleucids",
-      "years_fa": "۳۳۰ – ۲۴۷ ق.م",
-      "years_en": "330 – 247 BC",
-      "capital_fa": "سلوکیه (نزدیک بغداد)",
-      "capital_en": "Seleucia (near Baghdad)",
-      "flag": "seleucid.svg",
-      "map": "seleucid.jpg",
-      "description_fa": "پس از فتح ایران توسط اسکندر مقدونی، سرداران او امپراتوری را بین خود تقسیم کردند. سلوکیان، به رهبری سلوکوس یکم، بخش بزرگی از ایران و بین‌النهرین را به دست گرفتند. آنها هلنیسم (فرهنگ یونانی) را در ایران ترویج دادند و شهرهای یونانی‌نشین بسیاری ساختند. با این حال، مقاومت ایرانیان در برابر فرهنگ بیگانه و ظلم سلوکیان، زمینه‌ساز ظهور حکومت اشکانی شد. در واقع، سلوکیان هرگز نتوانستند کنترل کاملی بر سرزمین پارس (فارس) داشته باشند و حکام محلی ایرانی در آنجا قدرت را در دست داشتند. این دوره، هرچند کوتاه، تأثیرات فرهنگی مهمی بر جای گذاشت و زمینه‌ساز تعامل بیشتر ایران با جهان هلنیستی شد. در سال ۲۴۷ پیش از میلاد، ارشک (بنیان‌گذار اشکانیان) با شکست سلوکیان، حکومت آنها را در ایران پایان داد.[reference:5][reference:6]",
-      "description_en": "After Alexander the Great's conquest of Iran, his generals divided the empire. The Seleucids, led by Seleucus I, took control of much of Iran and Mesopotamia. They promoted Hellenism (Greek culture) in Iran and founded many Greek cities. However, Iranian resistance to foreign rule and Seleucid oppression paved the way for the rise of the Parthian Empire. In fact, the Seleucids never gained full control over the province of Persis (Fars), where local Iranian rulers held power. This period, though short, left significant cultural impacts and paved the way for greater interaction between Iran and the Hellenistic world. In 247 BC, Arsaces (founder of the Parthians) defeated the Seleucids, ending their rule in Iran."
-    },
-    {
-      "id": "parthian",
-      "name_fa": "اشکانیان",
-      "name_en": "Parthians",
-      "years_fa": "۲۴۷ ق.م – ۲۲۴ م",
-      "years_en": "247 BC – 224 AD",
-      "capital_fa": "نسا، تیسفون",
-      "capital_en": "Nisa, Ctesiphon",
-      "flag": "parthian.svg",
-      "map": "parthian.jpg",
-      "description_fa": "اشکانیان (پارتیان) حکومتی ایرانی بودند که پس از سرنگونی سلوکیان، بر ایران مسلط شدند. آنها با تکیه بر سواره‌نظام سبک و سنگین (کاتافراکت‌ها) توانستند در برابر رومیان مقاومت کنند و حتی آنها را در نبرد حران (کاره) در سال ۵۳ ق.م شکست دهند. در این نبرد، سردار اشکانی سورنا با به کارگیری تاکتیک جنگ و گریز، سپاه کراسوس رومی را نابود کرد. اشکانیان به مدت نزدیک به پنج قرن بر ایران حکومت کردند و در این دوره، جاده ابریشم رونق گرفت و شهرهای بزرگی مانند تیسفون شکوفا شد. معماری اشکانی با ویژگی‌هایی مانند ایوان‌های بزرگ و طاق‌های ضربی شناخته می‌شود. آنها در نهایت توسط اردشیر بابکان، بنیان‌گذار ساسانیان، سرنگون شدند.[reference:7][reference:8]",
-      "description_en": "The Parthians were an Iranian dynasty that took control of Iran after overthrowing the Seleucids. Relying on light and heavy cavalry (cataphracts), they resisted the Romans and even defeated them at the Battle of Carrhae in 53 BC. In this battle, the Parthian general Surena annihilated the Roman army of Crassus using hit-and-run tactics. The Parthians ruled Iran for nearly five centuries, during which the Silk Road flourished and great cities like Ctesiphon prospered. Parthian architecture is characterized by large iwans and barrel vaults. They were eventually overthrown by Ardashir I, the founder of the Sasanian Empire."
+      "description_fa": "امپراتوری هخامنشی، بزرگ‌ترین و باشکوه‌ترین امپراتوری تاریخ ایران باستان، توسط کوروش بزرگ بنیان گذاشته شد. این امپراتوری در اوج قدرت خود از دره سند در هند تا دریای اژه و مصر گسترده بود. کوروش با فتح بابل در ۵۳۹ ق.م، منشور معروف خود را صادر کرد که به عنوان نخستین اعلامیه حقوق بشر شناخته می‌شود. داریوش بزرگ با ایجاد سیستم ساتراپی، راه شاهی و ضرب سکه، امپراتوری را به یک ماشین اداری بی‌نظیر تبدیل کرد. این امپراتوری سرانجام در سال ۳۳۰ پیش از میلاد توسط اسکندر مقدونی فتح شد.",
+      "description_en": "The Achaemenid Empire, the largest and most magnificent empire of ancient Iran, was founded by Cyrus the Great. At its height, it stretched from the Indus Valley to the Aegean Sea and Egypt. Cyrus issued his famous charter, recognized as the first declaration of human rights. Darius the Great created the satrapy system and the Royal Road. The empire was finally conquered by Alexander the Great in 330 BC."
     },
     {
       "id": "sasanian",
@@ -75,83 +49,21 @@
       "capital_en": "Ctesiphon",
       "flag": "sasanian.svg",
       "map": "sasanian.jpg",
-      "description_fa": "ساسانیان، آخرین امپراتوری ایران باستان، توسط اردشیر بابکان بنیان گذاشته شد و به مدت بیش از چهار قرن بر ایران و بخش‌های وسیعی از خاورمیانه حکومت کرد. این دوره شاهد شکوفایی هنر، معماری (طاق کسری)، و ادبیات (خدای‌نامه) بود. ساسانیان دین زرتشتی را به عنوان دین رسمی ترویج کردند و در برابر امپراتوری روم و سپس بیزانس جنگ‌های طولانی داشتند. شاپور یکم در سال ۲۶۰ م امپراتور والرین روم را اسیر کرد، که این پیروزی بر سنگ‌نگاره‌های نقش رستم جاودانه شده است. خسرو انوشیروان (انوشیروان دادگر) با اصلاحات مالیاتی و اداری، عدالت را در امپراتوری گسترش داد و دانشگاه جندی‌شاپور را تأسیس کرد. درفش کاویانی، پرچم ملی ایران در این دوره بود. سرانجام، حملات اعراب مسلمان در سال ۶۵۱ میلادی به فروپاشی این امپراتوری منجر شد.[reference:9][reference:10]",
-      "description_en": "The Sasanians, the last empire of ancient Iran, were founded by Ardashir I and ruled Iran and large parts of the Middle East for over four centuries. This period witnessed a flourishing of art, architecture (Taq Kasra), and literature (Khwaday-Namag). The Sasanians promoted Zoroastrianism as the state religion and fought long wars against the Roman and later Byzantine Empires. Shapur I captured the Roman Emperor Valerian in 260 AD, a victory immortalized in rock reliefs at Naqsh-e Rostam. Khosrow I (Anushirvan the Just) expanded justice through tax and administrative reforms and founded the University of Gondishapur. The Derafsh Kaviani was the national flag of Iran during this era. The Arab Muslim conquests in 651 AD led to the fall of this empire."
+      "description_fa": "ساسانیان، آخرین امپراتوری ایران باستان، توسط اردشیر بابکان بنیان گذاشته شد و به مدت بیش از چهار قرن بر ایران و بخش‌های وسیعی از خاورمیانه حکومت کرد. این دوره شاهد شکوفایی هنر، معماری (طاق کسری)، و ادبیات بود. ساسانیان دین زرتشتی را به عنوان دین رسمی ترویج کردند و در برابر امپراتوری روم و سپس بیزانس جنگ‌های طولانی داشتند. شاپور یکم امپراتور والرین روم را اسیر کرد. سرانجام، حملات اعراب مسلمان در سال ۶۵۱ میلادی به فروپاشی این امپراتوری منجر شد.",
+      "description_en": "The Sasanians, the last empire of ancient Iran, were founded by Ardashir I and ruled for over four centuries. This period witnessed a flourishing of art, architecture (Taq Kasra), and literature. The Sasanians promoted Zoroastrianism as the state religion and fought long wars against the Romans and Byzantines. Shapur I captured the Roman Emperor Valerian. The Arab Muslim conquests in 651 AD led to the fall of this empire."
     },
     {
-      "id": "rashidun",
-      "name_fa": "خلافت راشدین",
-      "name_en": "Rashidun Caliphate",
-      "years_fa": "۶۳۲ – ۶۶۱ م",
-      "years_en": "632 – 661 AD",
-      "capital_fa": "مدینه، کوفه",
-      "capital_en": "Medina, Kufa",
-      "flag": "rashidun.svg",
-      "map": "rashidun.jpg",
-      "description_fa": "پس از رحلت پیامبر اسلام، خلافت راشدین به عنوان اولین نظام حکومتی اسلامی شکل گرفت. در دوران خلیفه دوم (عمر) و سوم (عثمان)، لشکریان مسلمان به ایران حمله کردند و در نبرد قادسیه (۶۳۶ م) و نهاوند (۶۴۲ م) ساسانیان را شکست دادند. در نبرد قادسیه، رستم فرخزاد، فرمانده سپاه ساسانی کشته شد و در نهاوند، آخرین مقاومت منظم ایرانیان در هم شکست. با این حال، در دوران خلافت علی بن ابی‌طالب، پایتخت به کوفه منتقل شد و ایران تحت کنترل کامل اعراب درآمد. این دوره آغاز تحولات عمیق فرهنگی و مذهبی در ایران بود و زمینه‌ساز ورود اسلام به ایران شد.[reference:11][reference:12]",
-      "description_en": "After the death of Prophet Muhammad, the Rashidun Caliphate emerged as the first Islamic governing system. During the caliphates of Umar and Uthman, Muslim armies invaded Iran, defeating the Sasanians at the Battles of Qadisiyyah (636 AD) and Nahavand (642 AD). At Qadisiyyah, Rostam Farrokhzad, the Sasanian commander, was killed, and at Nahavand, the last organized Iranian resistance was crushed. However, during the caliphate of Ali ibn Abi Talib, the capital moved to Kufa and Iran came under full Arab control. This period marked the beginning of profound cultural and religious changes in Iran and paved the way for the introduction of Islam."
-    },
-    {
-      "id": "umayyad",
-      "name_fa": "خلافت اموی",
-      "name_en": "Umayyad Caliphate",
-      "years_fa": "۶۶۱ – ۷۵۰ م",
-      "years_en": "661 – 750 AD",
-      "capital_fa": "دمشق",
-      "capital_en": "Damascus",
-      "flag": "umayyad.svg",
-      "map": "umayyad.jpg",
-      "description_fa": "امویان اولین سلسله موروثی خلافت اسلامی بودند که دمشق را پایتخت خود قرار دادند. در این دوره، فتوحات اسلامی به اوج خود رسید و ایران به عنوان یکی از مهم‌ترین ایالت‌های خلافت، تحت حکومت والیان اموی قرار گرفت. سیاست‌های تبعیض‌آمیز امویان علیه غیرعرب‌ها (موالی) نارضایتی گسترده‌ای در ایران ایجاد کرد. ایرانیان که از نظر اجتماعی و اقتصادی شهروند درجه دوم محسوب می‌شدند، به تدریج به مخالفت با خلافت پرداختند. این نارضایتی‌ها در نهایت به قیام ابومسلم خراسانی و برافتادن امویان به دست عباسیان انجامید. با این حال، برخی از والیان اموی مانند حجاج بن یوسف ثقفی، اصلاحات اداری و عمرانی در ایران انجام دادند.[reference:13][reference:14]",
-      "description_en": "The Umayyads were the first hereditary dynasty of the Islamic Caliphate, establishing Damascus as their capital. During this period, Islamic conquests reached their peak, and Iran, as a key province, was governed by Umayyad governors. The Umayyads' discriminatory policies against non-Arabs (mawali) caused widespread discontent in Iran. Iranians, who were considered second-class citizens socially and economically, gradually opposed the caliphate. This discontent eventually led to the rebellion of Abu Muslim al-Khorasani and the overthrow of the Umayyads by the Abbasids. However, some Umayyad governors, such as al-Hajjaj ibn Yusuf, carried out administrative and developmental reforms in Iran."
-    },
-    {
-      "id": "abbasid",
-      "name_fa": "خلافت عباسی",
-      "name_en": "Abbasid Caliphate",
-      "years_fa": "۷۵۰ – ۱۲۵۸ م",
-      "years_en": "750 – 1258 AD",
-      "capital_fa": "بغداد",
-      "capital_en": "Baghdad",
-      "flag": "abbasid.svg",
-      "map": "abbasid.jpg",
-      "description_fa": "عباسیان با کمک ایرانیان (به ویژه ابومسلم خراسانی) امویان را سرنگون کردند و بغداد را به عنوان پایتخت خود بنا نهادند. در دوران عباسی، ایران شاهد شکوفایی علمی و فرهنگی بی‌سابقه‌ای بود. ایرانیان به مقامات بالای حکومتی راه یافتند و خاندان برمکیان (وزیران ایرانی) نقش مهمی در اداره امپراتوری ایفا کردند. جنبش شعوبیه (جنبش برابری ایرانیان و اعراب) شکل گرفت و ترجمه آثار پهلوی به عربی رونق یافت. با این حال، به تدریج قدرت خلفا کاهش یافت و سلسله‌های ایرانی نیمه‌مستقل مانند طاهریان و صفاریان در گوشه و کنار ایران سر برآوردند. سرانجام، حمله مغول در سال ۱۲۵۸ م به بغداد، به خلافت عباسی پایان داد.[reference:15][reference:16]",
-      "description_en": "The Abbasids, with the help of Iranians (especially Abu Muslim al-Khorasani), overthrew the Umayyads and established Baghdad as their capital. During the Abbasid era, Iran witnessed an unprecedented flourishing of science and culture. Iranians gained high government positions, and the Barmakid family of Iranian viziers played a crucial role in administering the empire. The Shu'ubiyya movement (advocating equality between Iranians and Arabs) emerged, and the translation of Pahlavi works into Arabic flourished. However, caliphal power gradually declined, and semi-independent Iranian dynasties like the Tahirids and Saffarids rose across Iran. The Mongol invasion of Baghdad in 1258 AD finally ended the Abbasid Caliphate."
-    },
-    {
-      "id": "tahirid",
-      "name_fa": "طاهریان",
-      "name_en": "Tahirids",
-      "years_fa": "۸۲۱ – ۸۷۳ م",
-      "years_en": "821 – 873 AD",
-      "capital_fa": "نیشابور",
-      "capital_en": "Nishapur",
-      "flag": "tahirid.svg",
-      "map": "tahirid.jpg",
-      "description_fa": "طاهریان اولین سلسله ایرانی نیمه‌مستقل پس از اسلام بودند که توسط طاهر بن حسین، سردار مأمون عباسی، در خراسان بنیان گذاشته شد. آنها اگرچه خود را تابع خلفای عباسی می‌دانستند، اما در عمل مستقل عمل می‌کردند. عبدالله بن طاهر (۲۱۳-۲۳۰ ق) پایتخت را به نیشابور منتقل کرد و توانست استقلال نسبی حکومت را تثبیت کند. طاهریان به عمران و آبادانی خراسان، به ویژه نیشابور، توجه زیادی کردند و با حفر قنات‌ها و اصلاح سیستم آبیاری، رونق کشاورزی و بازرگانی را به همراه آوردند. آنها زمینه‌ساز احیای فرهنگ ایرانی و رشد زبان فارسی شدند. این سلسله در سال ۸۷۳ م توسط صفاریان سرنگون شد.[reference:17][reference:18]",
-      "description_en": "The Tahirids were the first semi-independent Iranian dynasty after Islam, founded by Tahir ibn Husayn, a general of the Abbasid caliph al-Ma'mun, in Khorasan. Although they nominally acknowledged Abbasid suzerainty, they acted independently. Abdullah ibn Tahir (213-230 AH) moved the capital to Nishapur and consolidated the dynasty's relative independence. The Tahirids paid great attention to the development of Khorasan, especially Nishapur, and by digging qanats and reforming the irrigation system, they brought prosperity to agriculture and trade. They paved the way for the revival of Persian culture and the growth of the Persian language. The dynasty was overthrown by the Saffarids in 873 AD."
-    },
-    {
-      "id": "saffarid",
-      "name_fa": "صفاریان",
-      "name_en": "Saffarids",
-      "years_fa": "۸۶۱ – ۱۰۰۳ م",
-      "years_en": "861 – 1003 AD",
-      "capital_fa": "زرنج (سیستان)",
-      "capital_en": "Zaranj (Sistan)",
-      "flag": "saffarid.svg",
-      "map": "saffarid.jpg",
-      "description_fa": "صفاریان توسط یعقوب لیث، که ابتدا مسگر (صفار) بود، در سیستان بنیان گذاشته شد. یعقوب لیث با شجاعت و تدبیر توانست طاهریان را سرنگون کند و قلمرو خود را تا نزدیکی بغداد گسترش دهد. صفاریان به عنوان سلسله‌ای ایرانی، نقش مهمی در احیای زبان فارسی و فرهنگ ایرانی داشتند. یعقوب لیث اولین شاعر پارسی‌گوی پس از اسلام را تشویق کرد و خود نیز به فارسی سخن می‌گفت. این سلسله پس از مدتی توسط سامانیان و سپس غزنویان به حاشیه رانده شد. با این حال، صفاریان به عنوان نخستین حکومت مستقل ایرانی پس از اسلام، جایگاه ویژه‌ای در تاریخ ایران دارند.[reference:19][reference:20]",
-      "description_en": "The Saffarids were founded by Ya'qub ibn al-Layth, originally a coppersmith (saffar), in Sistan. Through bravery and strategy, Ya'qub overthrew the Tahirids and expanded his realm to near Baghdad. As an Iranian dynasty, the Saffarids played a key role in reviving the Persian language and culture. Ya'qub encouraged the first post-Islamic Persian poet and himself spoke Persian. The dynasty was eventually marginalized by the Samanids and later the Ghaznavids. However, the Saffarids hold a special place in Iranian history as the first independent Iranian government after Islam."
-    },
-    {
-      "id": "samanid",
-      "name_fa": "سامانیان",
-      "name_en": "Samanids",
-      "years_fa": "۸۱۹ – ۹۹۹ م",
-      "years_en": "819 – 999 AD",
-      "capital_fa": "بخارا",
-      "capital_en": "Bukhara",
-      "flag": "samanid.svg",
-      "map": "samanid.jpg",
-      "description_fa": "سامانیان، که از نواحی بخارا و سمرقند برخاستند، یکی از درخشان‌ترین دوره‌های فرهنگی ایران را رقم زدند. آنها حامیان بزرگ زبان و ادب فارسی بودند و در دربارشان شاعرانی چون رودکی (پدر شعر فارسی) و فردوسی (در آغاز کار) پرورش یافتند. در دوره سامانیان، فارسی دری زبان رسمی دولت شد و بخارا به یکی از مراکز مهم علمی و فرهنگی جهان اسلام تبدیل شد، تا جایی که به «قبه‌الاسلام» شهرت یافت. سامانیان با احیای سنت‌های ایرانی و اسلامی، پلی بین دوران باستان و دوران اسلامی ایران بودند. این سلسله در سال ۹۹۹ م توسط ترکان قراخانی و غزنویان سرنگون شد.[reference:21]",
-      "description_en": "The Samanids, originating from the Bukhara and Samarkand regions, presided over one of the most brilliant cultural periods in Iranian history. They were great patrons of the Persian language and literature, nurturing poets like Rudaki (the father of Persian poetry) and the early Ferdowsi. During the Samanid era, New Persian became the official language of the state, and Bukhara became a major center of science and cultur
+      "id": "safavid",
+      "name_fa": "صفویان",
+      "name_en": "Safavids",
+      "years_fa": "۱۵۰۱ – ۱۷۳۶ م",
+      "years_en": "1501 – 1736 AD",
+      "capital_fa": "تبریز، قزوین، اصفهان",
+      "capital_en": "Tabriz, Qazvin, Isfahan",
+      "flag": "safavid.svg",
+      "map": "safavid.jpg",
+      "description_fa": "صفویان، یکی از مهم‌ترین سلسله‌های تاریخ ایران، توسط شاه اسماعیل یکم در سال ۱۵۰۱ میلادی بنیان گذاشته شد. آنها تشیع دوازده‌امامی را به عنوان مذهب رسمی ایران اعلام کردند. شاه عباس یکم (کبیر) پایتخت را به اصفهان منتقل کرد و این شهر را به یکی از زیباترین شهرهای جهان تبدیل کرد (میدان نقش جهان). صفویان در برابر عثمانی‌ها و ازبک‌ها جنگیدند و مرزهای ایران را تثبیت کردند. این سلسله در سال ۱۷۳۶ م توسط نادرشاه افشار سرنگون شد.",
+      "description_en": "The Safavids, one of the most important dynasties in Iranian history, were founded by Shah Ismail I in 1501 AD. They declared Twelver Shi'ism as the official religion of Iran. Shah Abbas I moved the capital to Isfahan and transformed it into one of the most beautiful cities in the world. The Safavids fought the Ottomans and Uzbeks and consolidated Iran's borders. The dynasty was overthrown by Nader Shah Afshar in 1736 AD."
+    }
+  ]
+}
