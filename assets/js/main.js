@@ -9,16 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const mainNav = document.querySelector('.main-nav');
 
   if (menuToggle) {
-    menuToggle.addEventListener('click', () => {
-      mainNav.classList.toggle('open');
-    });
-    // بستن منو وقتی روی لینک کلیک شد
+    menuToggle.addEventListener('click', () => mainNav.classList.toggle('open'));
     mainNav.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => mainNav.classList.remove('open'));
     });
   }
 
-  /* ─── ۲. تغییر زبان (فارسی/انگلیسی) ─── */
+  /* ─── ۲. تغییر زبان ─── */
   const langToggle = document.querySelector('.lang-toggle');
   let currentLang = localStorage.getItem('pw-lang') || 'fa';
 
@@ -34,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
     currentLang = lang;
   }
 
-  // اجرای اولیه
   if (currentLang === 'en') applyLang('en');
 
   if (langToggle) {
@@ -54,13 +50,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
     revealEls.forEach(el => observer.observe(el));
   } else {
     revealEls.forEach(el => el.classList.add('visible'));
   }
 
-  /* ─── ۴. افکت پارالاکس ملایم روی هیرو ─── */
+  /* ─── ۴. انتخاب دوره در خط زمان (کلیک → نورانی شدن) ─── */
+  const timelineItems = document.querySelectorAll('.timeline-item');
+  timelineItems.forEach(item => {
+    item.addEventListener('click', () => {
+      // حذف حالت فعال از همه
+      timelineItems.forEach(i => i.classList.remove('active'));
+      // افزودن حالت فعال به آیتم کلیک‌شده
+      item.classList.add('active');
+      // بعداً می‌توانی اینجا بر اساس item.dataset.era صفحه مربوطه را لود کنی
+    });
+  });
+
+  /* ─── ۵. پارالاکس ملایم روی هیرو ─── */
   const heroContent = document.querySelector('.hero-content');
   if (heroContent && window.innerWidth > 768) {
     window.addEventListener('scroll', () => {
