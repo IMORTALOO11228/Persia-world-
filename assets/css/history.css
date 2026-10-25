@@ -52,24 +52,25 @@
 
 /* پرچم کوچک در کارت */
 .card-flag {
-  width: 56px;
-  height: 38px;
+  width: 60px;
+  height: 40px;
   object-fit: contain;
   margin-bottom: 16px;
-  border-radius: 2px;
+  border-radius: 4px;
   background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(201, 162, 75, 0.2);
 }
 
 .history-card h3 {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--gold-light);
   line-height: 1.8;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .history-card .card-years {
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   margin-bottom: 20px;
 }
@@ -80,14 +81,15 @@
   background: transparent;
   color: var(--gold);
   font-family: var(--font-body);
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.95rem;
   padding: 10px 24px;
   border: 1.5px solid var(--gold);
   border-radius: 4px;
   transition: all 0.3s;
   cursor: pointer;
   margin-top: auto;
+  width: 100%;
 }
 .history-card:hover .card-view-btn {
   background: var(--gold);
@@ -213,24 +215,26 @@
   color: var(--text-primary);
   font-size: 1.05rem;
   line-height: 2.1;
+  text-align: justify;
 }
 .detail-body p { margin-bottom: 16px; }
 
 /* ریسپانسیو */
 @media (max-width: 600px) {
   .history-grid {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 16px;
   }
-  .history-card { padding: 18px; }
-  .history-card h3 { font-size: 1.15rem; }
-  .card-flag { width: 44px; height: 30px; }
-  .card-view-btn { font-size: 0.8rem; padding: 8px 16px; }
+  .history-card { padding: 18px 14px; }
+  .history-card h3 { font-size: 1.2rem; }
+  .card-flag { width: 44px; height: 30px; margin-bottom: 12px; }
+  .history-card .card-years { font-size: 0.8rem; margin-bottom: 16px; }
+  .card-view-btn { font-size: 0.8rem; padding: 8px 12px; }
 
   .detail-box { padding: 24px 18px; }
-  .detail-top { flex-direction: column; }
+  .detail-top { flex-direction: column; gap: 16px; }
   .detail-flag-wrap { flex: none; width: 100%; height: 80px; }
-  .detail-map-wrap { height: 180px; }
-  .detail-box h2 { font-size: 1.6rem; }
-  .detail-body { font-size: 0.95rem; }
+  .detail-map-wrap { height: 200px; }
+  .detail-box h2 { font-size: 1.8rem; }
+  .detail-body { font-size: 0.95rem; line-height: 1.9; }
 }
