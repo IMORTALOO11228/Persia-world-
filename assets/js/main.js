@@ -1,7 +1,3 @@
-/* ═══════════════════════════════════════════════════════════
-   جهان پارس | اسکریپت اصلی
-   ═══════════════════════════════════════════════════════════ */
-
 document.addEventListener('DOMContentLoaded', () => {
 
   const menuToggle = document.querySelector('.menu-toggle');
@@ -27,13 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('pw-lang', lang);
     currentLang = lang;
   }
+  
   if (currentLang === 'en') applyLang('en');
+  
   if (langToggle) {
     langToggle.addEventListener('click', () => {
       applyLang(currentLang === 'fa' ? 'en' : 'fa');
     });
   }
 
+  // این بخش باعث میشه کارت‌های صفحه اصلی (reveal) دیده بشن
   const revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
@@ -47,24 +46,5 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => observer.observe(el));
   } else {
     revealEls.forEach(el => el.classList.add('visible'));
-  }
-
-  const timelineItems = document.querySelectorAll('.timeline-item');
-  timelineItems.forEach(item => {
-    item.addEventListener('click', () => {
-      timelineItems.forEach(i => i.classList.remove('active'));
-      item.classList.add('active');
-    });
-  });
-
-  const heroContent = document.querySelector('.hero-content');
-  if (heroContent && window.innerWidth > 768) {
-    window.addEventListener('scroll', () => {
-      const scrolled = window.scrollY;
-      if (scrolled < window.innerHeight) {
-        heroContent.style.transform = `translateY(${scrolled * 0.25}px)`;
-        heroContent.style.opacity = Math.max(0, 1 - scrolled / 600);
-      }
-    }, { passive: true });
   }
 });
