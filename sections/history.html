@@ -4,18 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>تاریخ ایران | جهان پارس</title>
-  <meta name="description" content="سفر در هزاره‌ها: تاریخ کامل ایران از عیلام تا جمهوری اسلامی">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@300;400;500;700;900&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="../assets/css/main.css">
   <link rel="stylesheet" href="../assets/css/history.css">
 </head>
 <body>
 
-  <!-- هدر -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="../index.html" class="brand">
@@ -28,7 +24,6 @@
     </div>
   </header>
 
-  <!-- عنوان صفحه -->
   <section class="page-hero">
     <div class="container">
       <nav class="breadcrumb">
@@ -40,29 +35,17 @@
     </div>
   </section>
 
-  <!-- گرید سلسله‌ها -->
   <section class="container">
-    <div class="history-grid" id="historyGrid">
-      <!-- کارت‌ها توسط JS ساخته می‌شوند -->
-    </div>
+    <div class="history-grid" id="historyGrid"></div>
   </section>
 
-  <!-- مودال جزئیات -->
   <div class="detail-overlay" id="detailOverlay">
     <div class="detail-box">
       <button class="detail-close" id="detailClose" aria-label="بستن">✕</button>
-
-      <!-- بخش بالا: نقشه + پرچم بزرگ -->
       <div class="detail-top">
-        <div class="detail-flag-wrap">
-          <img id="detailFlag" src="" alt="پرچم">
-        </div>
-        <div class="detail-map-wrap">
-          <img id="detailMap" src="" alt="نقشه قلمرو">
-        </div>
+        <div class="detail-flag-wrap"><img id="detailFlag" src="" alt="پرچم"></div>
+        <div class="detail-map-wrap"><img id="detailMap" src="" alt="نقشه"></div>
       </div>
-
-      <!-- اطلاعات -->
       <h2 id="detailName"></h2>
       <div class="detail-meta">
         <span id="detailYears"></span>
@@ -72,21 +55,16 @@
     </div>
   </div>
 
-  <!-- فوتر -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-logo">جهان پارس</div>
       <p class="footer-text">ساخته شده با عشق به ایران باستان</p>
-      <div class="footer-links">
-        <a href="../index.html">خانه</a>
-        <a href="../index.html#sections">دروازه‌ها</a>
-        <a href="../index.html#about">درباره</a>
-      </div>
-      <div class="footer-divider"></div>
       <p class="footer-copy">© 2025 Persia World</p>
     </div>
   </footer>
 
-  <script src="../assets/js/history.js?v=99"></script>
+  <!-- 👇 این خط دقیقا اینجاست که به مرورگر میگه فایل JS رو اجرا کنه -->
+  <script src="../assets/js/history.js?v=100"></script>
+
 </body>
 </html>
