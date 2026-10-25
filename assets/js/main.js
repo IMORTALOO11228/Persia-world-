@@ -4,10 +4,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ─── ۱. منوی موبایل ─── */
   const menuToggle = document.querySelector('.menu-toggle');
   const mainNav = document.querySelector('.main-nav');
-
   if (menuToggle) {
     menuToggle.addEventListener('click', () => mainNav.classList.toggle('open'));
     mainNav.querySelectorAll('a').forEach(a => {
@@ -15,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* ─── ۲. تغییر زبان ─── */
   const langToggle = document.querySelector('.lang-toggle');
   let currentLang = localStorage.getItem('pw-lang') || 'fa';
 
@@ -30,16 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('pw-lang', lang);
     currentLang = lang;
   }
-
   if (currentLang === 'en') applyLang('en');
-
   if (langToggle) {
     langToggle.addEventListener('click', () => {
       applyLang(currentLang === 'fa' ? 'en' : 'fa');
     });
   }
 
-  /* ─── ۳. انیمیشن ظاهر شدن هنگام اسکرول ─── */
   const revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
@@ -55,19 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => el.classList.add('visible'));
   }
 
-  /* ─── ۴. انتخاب دوره در خط زمان (کلیک → نورانی شدن) ─── */
   const timelineItems = document.querySelectorAll('.timeline-item');
   timelineItems.forEach(item => {
     item.addEventListener('click', () => {
-      // حذف حالت فعال از همه
       timelineItems.forEach(i => i.classList.remove('active'));
-      // افزودن حالت فعال به آیتم کلیک‌شده
       item.classList.add('active');
-      // بعداً می‌توانی اینجا بر اساس item.dataset.era صفحه مربوطه را لود کنی
     });
   });
 
-  /* ─── ۵. پارالاکس ملایم روی هیرو ─── */
   const heroContent = document.querySelector('.hero-content');
   if (heroContent && window.innerWidth > 768) {
     window.addEventListener('scroll', () => {
@@ -78,5 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }, { passive: true });
   }
-
 });
