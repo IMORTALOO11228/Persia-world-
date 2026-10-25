@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const overlay = document.getElementById('detailOverlay');
   const closeBtn = document.getElementById('detailClose');
 
-  // آرایه دیتای ۳۳ سلسله (کاملاً تمیز و استاندارد)
   const allEras = [
     {
       id: "elam", name_fa: "عیلام", years_fa: "۳۲۰۰ – ۵۳۹ ق.م", capital_fa: "شوش", flag: "elam.svg", map: "elam.jpg",
@@ -141,6 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   function renderGrid() {
+    if(!grid) return;
     grid.innerHTML = '';
     allEras.forEach(era => {
       const card = document.createElement('div');
@@ -180,8 +180,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  closeBtn.addEventListener('click', closeDetail);
-  overlay.addEventListener('click', (e) => {
+  if(closeBtn) closeBtn.addEventListener('click', closeDetail);
+  if(overlay) overlay.addEventListener('click', (e) => {
     if (e.target.id === 'detailOverlay') closeDetail();
   });
   document.addEventListener('keydown', (e) => {
