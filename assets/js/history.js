@@ -8,14 +8,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* بارگذاری داده‌ها از فایل JSON */
   fetch('../data/history.json')
-    .then(r => r.json())
+    .then(r => {
+      if (!r.ok) {
+        throw new Error("فایل پیدا نشد. کد خطا: " + r.status);
+      }
+      return r.json();
+    })
     .then(data => {
       allEras = data.eras || [];
       renderGrid();
     })
     .catch(err => {
-      console.warn('خطا در بارگذاری تاریخ:', err);
-      grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;padding:60px;">دیتای تاریخی هنوز آماده نیست.</p>';
+      console.error('خطا در بارگذاری تاریخ:', err);
+      // این خط رو تغییر دادم تا خود خطا رو نشون بده
+      grid.innerHTML = `<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;padding:60px;">خطا در اتصال به دیتابیس: <br> <span style="color:red; font-size:14px;">${err.message}</span></p>`;
     });
 
   /* ساخت کارت‌های تایم‌لاین */
@@ -31,9 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <button class="card-view-btn">مشاهده جزئیات ←</button>
       `;
       
-      // با کلیک روی کل کارت، مودال باز می‌شود
       card.addEventListener('click', () => openDetail(era));
-      
       grid.appendChild(card);
     });
   }
@@ -45,22 +49,19 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('detailCapital').textContent = 'پایتخت: ' + (era.capital_fa || '—');
     document.getElementById('detailBody').innerHTML = `<p>${era.description_fa}</p>`;
 
-    // پرچم بزرگ
     const flagImg = document.getElementById('detailFlag');
     flagImg.src = `../assets/images/flags/${era.flag}`;
     flagImg.alt = 'پرچم ' + era.name_fa;
     flagImg.style.display = 'block';
     flagImg.onerror = function() { this.style.display = 'none'; };
 
-    // نقشه قلمرو
     const mapImg = document.getElementById('detailMap');
     mapImg.src = `../assets/images/maps/${era.map}`;
     mapImg.alt = 'نقشه قلمرو ' + era.name_fa;
     mapImg.onerror = function() { this.src = ''; this.alt = 'نقشه موجود نیست'; };
 
-    // باز کردن مودال
     overlay.classList.add('open');
-    document.body.style.overflow = 'hidden'; // جلوگیری از اسکرول پس‌زمینه
+    document.body.style.overflow = 'hidden'; 
   }
 
   /* بستن پنجره جزئیات */
