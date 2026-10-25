@@ -5,65 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>جهان پارس | Persia World</title>
   <meta name="description" content="گنجینه‌ای از افسانه‌ها، تاریخ و شکوه ایران باستان">
-
-  <!-- فونت‌ها: نستعلیق برای تیترها + وزیرمتن برای متن -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@300;400;500;700;900&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-  <!-- ═══════════ هدر / نوار بالا ═══════════ -->
+  <!-- ═══════════ هدر ═══════════ -->
   <header class="site-header">
     <div class="container header-inner">
-
-      <!-- لوگو: ستون تخت جمشید + دو شیردال + منشور کوروش -->
+      <!-- لوگوی دقیق تخت جمشید: سرستون دوگانه + تیر + پایه منشور -->
       <a href="index.html" class="logo">
-        <svg class="logo-mark" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+        <svg class="logo-mark" viewBox="0 0 120 110" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <linearGradient id="gold-grad" x1="0" y1="0" x2="0" y2="1">
+            <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0" stop-color="#e8c877"/>
               <stop offset="1" stop-color="#8a6f32"/>
             </linearGradient>
           </defs>
-          <!-- منشور کوروش (پایه) -->
-          <g transform="translate(70, 118)">
-            <rect x="-28" y="-4" width="56" height="8" rx="4" fill="url(#gold-grad)" opacity="0.7"/>
-            <ellipse cx="0" cy="-4" rx="28" ry="3" fill="#e8c877" opacity="0.5"/>
-          </g>
-          <!-- ستون -->
-          <rect x="64" y="55" width="12" height="52" fill="#c9a24b" opacity="0.15" stroke="url(#gold-grad)" stroke-width="1.2"/>
-          <line x1="67" y1="55" x2="67" y2="107" stroke="#c9a24b" stroke-width="0.4" opacity="0.6"/>
-          <line x1="70" y1="55" x2="70" y2="107" stroke="#c9a24b" stroke-width="0.4" opacity="0.6"/>
-          <line x1="73" y1="55" x2="73" y2="107" stroke="#c9a24b" stroke-width="0.4" opacity="0.6"/>
-          <!-- سرستون -->
-          <path d="M48 55 L92 55 L86 46 L54 46 Z" fill="#c9a24b" opacity="0.2" stroke="url(#gold-grad)" stroke-width="1.2"/>
-          <line x1="50" y1="50" x2="90" y2="50" stroke="url(#gold-grad)" stroke-width="0.8"/>
-          <!-- شیردال چپ -->
-          <g stroke="url(#gold-grad)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M54 46 Q46 42 40 36 L34 34"/>
-            <path d="M34 34 Q28 32 26 36 Q26 38 28 39"/>
-            <path d="M30 33 Q28 30 25 28"/>
-            <path d="M28 34 Q26 32 25 33"/>
-            <path d="M42 38 Q38 28 32 22 Q38 24 42 30 Q44 34 44 38"/>
-            <path d="M40 36 Q38 30 35 26"/>
-            <path d="M38 34 Q37 30 36 28"/>
-            <line x1="36" y1="40" x2="34" y2="46"/>
-            <line x1="44" y1="42" x2="44" y2="46"/>
+          <!-- تیر افقی سرستون -->
+          <rect x="20" y="32" width="80" height="8" rx="2" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+          <line x1="28" y1="40" x2="92" y2="40" stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.6"/>
+          
+          <!-- شیردال چپ (نیم‌رخ با بال و سر) -->
+          <g stroke="url(#goldGrad)" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M26 40 C22 46 18 54 20 62 L26 58 C24 52 26 46 30 40"/>
+            <path d="M22 42 C16 40 12 34 14 28 L20 32 C18 36 20 38 24 38"/>
+            <path d="M15 29 L10 24 M17 27 L13 21"/>
           </g>
           <!-- شیردال راست (آینه) -->
-          <g transform="translate(140, 0) scale(-1, 1)" stroke="url(#gold-grad)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M54 46 Q46 42 40 36 L34 34"/>
-            <path d="M34 34 Q28 32 26 36 Q26 38 28 39"/>
-            <path d="M30 33 Q28 30 25 28"/>
-            <path d="M28 34 Q26 32 25 33"/>
-            <path d="M42 38 Q38 28 32 22 Q38 24 42 30 Q44 34 44 38"/>
-            <path d="M40 36 Q38 30 35 26"/>
-            <path d="M38 34 Q37 30 36 28"/>
-            <line x1="36" y1="40" x2="34" y2="46"/>
-            <line x1="44" y1="42" x2="44" y2="46"/>
+          <g transform="translate(120,0) scale(-1,1)" stroke="url(#goldGrad)" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M26 40 C22 46 18 54 20 62 L26 58 C24 52 26 46 30 40"/>
+            <path d="M22 42 C16 40 12 34 14 28 L20 32 C18 36 20 38 24 38"/>
+            <path d="M15 29 L10 24 M17 27 L13 21"/>
+          </g>
+          
+          <!-- پایه و منشور کوروش -->
+          <rect x="34" y="62" width="52" height="6" rx="1.5" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+          <path d="M40 72 Q60 78 80 72" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+          <line x1="44" y1="80" x2="76" y2="80" stroke="url(#goldGrad)" stroke-width="1.2" opacity="0.7"/>
+          <!-- نشانه‌های میخی -->
+          <g stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.5">
+            <line x1="46" y1="88" x2="54" y2="88"/><line x1="56" y1="88" x2="64" y2="88"/><line x1="66" y1="88" x2="74" y2="88"/>
           </g>
         </svg>
         <div class="logo-text">
@@ -72,14 +56,12 @@
         </div>
       </a>
 
-      <!-- منوی دسکتاپ -->
       <nav class="main-nav">
         <a href="#sections" data-fa="دروازه‌ها" data-en="Gateways">دروازه‌ها</a>
         <a href="#timeline" data-fa="خط زمان" data-en="Timeline">خط زمان</a>
         <a href="#about" data-fa="درباره" data-en="About">درباره</a>
       </nav>
 
-      <!-- دکمه تغییر زبان + منوی موبایل -->
       <div class="header-actions">
         <button class="lang-toggle" aria-label="تغییر زبان">EN</button>
         <button class="menu-toggle" aria-label="منو">☰</button>
@@ -87,7 +69,7 @@
     </div>
   </header>
 
-  <!-- ═══════════ هیرو (بخش قهرمان) ═══════════ -->
+  <!-- ═══════════ هیرو ═══════════ -->
   <section class="hero">
     <div class="hero-bg-ornament"></div>
     <div class="hero-content container">
@@ -102,7 +84,7 @@
     <div class="hero-scroll">▼</div>
   </section>
 
-  <!-- ═══════════ دروازه‌های بخش‌ها ═══════════ -->
+  <!-- ═══════════ دروازه‌ها ═══════════ -->
   <section class="gateways" id="sections">
     <div class="container">
       <div class="section-header reveal">
@@ -112,15 +94,16 @@
       </div>
 
       <div class="gateway-grid">
-
-        <!-- ۱. موجودات افسانه‌ای -->
+        <!-- ۱. موجودات افسانه‌ای: نقش شیردال بال‌دار تخت جمشید -->
         <a href="sections/creatures.html" class="gateway-card reveal">
           <div class="gateway-icon">
-            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M10 40 Q15 20 30 15 Q45 20 50 40 Q40 35 30 38 Q20 35 10 40 Z"/>
-              <circle cx="23" cy="25" r="2" fill="currentColor"/>
-              <circle cx="37" cy="25" r="2" fill="currentColor"/>
-              <path d="M30 5 L28 12 M30 5 L32 12"/>
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="40" cy="40" r="28" opacity="0.3"/>
+              <path d="M40 20 C40 20 36 28 36 32 C36 36 40 38 40 38 C40 38 44 36 44 32 C44 28 40 20 40 20Z"/>
+              <path d="M36 32 C26 28 20 34 20 40 C20 46 26 50 32 48"/>
+              <path d="M44 32 C54 28 60 34 60 40 C60 46 54 50 48 48"/>
+              <path d="M32 48 L28 56 M48 48 L52 56"/>
+              <circle cx="40" cy="34" r="1.5" fill="currentColor"/>
             </svg>
           </div>
           <h3 data-fa="موجودات افسانه‌ای" data-en="Mythical Creatures">موجودات افسانه‌ای</h3>
@@ -128,13 +111,15 @@
           <span class="gateway-btn" data-fa="ورود ←" data-en="Enter →">ورود ←</span>
         </a>
 
-        <!-- ۲. پادشاهان -->
+        <!-- ۲. پادشاهان: تاج هخامنشی + ردیف سربازان جاویدان -->
         <a href="sections/kings.html" class="gateway-card reveal">
           <div class="gateway-icon">
-            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 45 L48 45 L48 40 L12 40 Z"/>
-              <path d="M15 40 L15 20 L22 30 L30 15 L38 30 L45 20 L45 40"/>
-              <circle cx="30" cy="12" r="2" fill="currentColor"/>
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 44 L32 44 L32 32 L40 40 L48 32 L48 44 L56 44 L56 52 L24 52 Z"/>
+              <circle cx="40" cy="24" r="2" fill="currentColor"/>
+              <line x1="20" y1="56" x2="60" y2="56"/>
+              <line x1="24" y1="60" x2="56" y2="60" opacity="0.4"/>
+              <path d="M28 66 L28 70 M36 66 L36 70 M44 66 L44 70 M52 66 L52 70" opacity="0.5"/>
             </svg>
           </div>
           <h3 data-fa="پادشاهان ایران" data-en="Kings of Persia">پادشاهان ایران</h3>
@@ -142,14 +127,15 @@
           <span class="gateway-btn" data-fa="ورود ←" data-en="Enter →">ورود ←</span>
         </a>
 
-        <!-- ۳. قهرمانان -->
+        <!-- ۳. قهرمانان: درفش کاویانی -->
         <a href="sections/heroes.html" class="gateway-card reveal">
           <div class="gateway-icon">
-            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M30 8 L30 45"/>
-              <path d="M22 15 L30 8 L38 15"/>
-              <path d="M22 45 Q30 52 38 45"/>
-              <circle cx="30" cy="50" r="2" fill="currentColor"/>
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="40" y1="16" x2="40" y2="64"/>
+              <path d="M24 24 L56 24 L52 34 L56 44 L24 44 Z"/>
+              <path d="M36 16 L44 16 L44 22 L36 22 Z"/>
+              <circle cx="40" cy="10" r="2" fill="currentColor"/>
+              <path d="M30 30 L50 30 M32 38 L48 38" opacity="0.4"/>
             </svg>
           </div>
           <h3 data-fa="قهرمانان" data-en="Heroes">قهرمانان</h3>
@@ -157,13 +143,14 @@
           <span class="gateway-btn" data-fa="ورود ←" data-en="Enter →">ورود ←</span>
         </a>
 
-        <!-- ۴. شاعران -->
+        <!-- ۴. شاعران: قلم و طومار خط -->
         <a href="sections/poets.html" class="gateway-card reveal">
           <div class="gateway-icon">
-            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M20 42 Q18 30 28 20 L42 20 L42 30 L30 44 Q24 46 20 42 Z"/>
-              <path d="M28 20 L38 30"/>
-              <line x1="18" y1="46" x2="42" y2="46"/>
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 28 C20 22 30 18 40 18 L52 18 L52 52 L40 52 C30 52 20 48 20 42 Z"/>
+              <path d="M24 24 L48 24 M24 30 L44 30 M24 36 L40 36" opacity="0.5"/>
+              <path d="M58 18 L62 54 L56 58 L52 54"/>
+              <line x1="16" y1="60" x2="64" y2="60"/>
             </svg>
           </div>
           <h3 data-fa="شاعران بزرگ" data-en="Great Poets">شاعران بزرگ</h3>
@@ -171,16 +158,16 @@
           <span class="gateway-btn" data-fa="ورود ←" data-en="Enter →">ورود ←</span>
         </a>
 
-        <!-- ۵. شاهنامه -->
+        <!-- ۵. شاهنامه: نقش رزم و نیزه -->
         <a href="sections/shahnameh.html" class="gateway-card reveal">
           <div class="gateway-icon">
-            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 15 Q20 12 30 15 Q40 12 48 15 L48 45 Q40 42 30 45 Q20 42 12 45 Z"/>
-              <line x1="30" y1="15" x2="30" y2="45"/>
-              <line x1="18" y1="22" x2="26" y2="22"/>
-              <line x1="18" y1="28" x2="26" y2="28"/>
-              <line x1="34" y1="22" x2="42" y2="22"/>
-              <line x1="34" y1="28" x2="42" y2="28"/>
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="26" y1="18" x2="26" y2="58"/>
+              <line x1="54" y1="18" x2="54" y2="58"/>
+              <path d="M30 24 L50 24 L50 34 L30 34 Z"/>
+              <path d="M34 38 L46 38 L46 48 L34 48 Z" opacity="0.5"/>
+              <line x1="20" y1="62" x2="60" y2="62"/>
+              <circle cx="40" cy="29" r="2" fill="currentColor"/>
             </svg>
           </div>
           <h3 data-fa="شاهنامه" data-en="Shahnameh">شاهنامه</h3>
@@ -188,27 +175,27 @@
           <span class="gateway-btn" data-fa="ورود ←" data-en="Enter →">ورود ←</span>
         </a>
 
-        <!-- ۶. تاریخ ایران -->
+        <!-- ۶. تاریخ ایران: ستون‌های کتیبه و خط زمان -->
         <a href="sections/history.html" class="gateway-card reveal">
           <div class="gateway-icon">
-            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="10" y1="30" x2="50" y2="30"/>
-              <circle cx="18" cy="30" r="3" fill="currentColor"/>
-              <circle cx="30" cy="30" r="3" fill="currentColor"/>
-              <circle cx="42" cy="30" r="3" fill="currentColor"/>
-              <path d="M18 26 L18 20 M30 34 L30 40 M42 26 L42 20"/>
+            <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="40" x2="68" y2="40"/>
+              <circle cx="22" cy="40" r="3" fill="currentColor"/>
+              <circle cx="40" cy="40" r="3" fill="currentColor"/>
+              <circle cx="58" cy="40" r="3" fill="currentColor"/>
+              <path d="M22 36 L22 24 M40 44 L40 56 M58 36 L58 24"/>
+              <path d="M18 60 L26 60 M36 60 L44 60 M54 60 L62 60" opacity="0.4"/>
             </svg>
           </div>
           <h3 data-fa="تاریخ ایران" data-en="History of Persia">تاریخ ایران</h3>
           <p data-fa="از تمدن‌های کهن فلات ایران تا امروز؛ سفر در هزاره‌ها" data-en="From ancient civilizations of the Iranian plateau to today; a journey through millennia">از تمدن‌های کهن فلات ایران تا امروز؛ سفر در هزاره‌ها</p>
           <span class="gateway-btn" data-fa="ورود ←" data-en="Enter →">ورود ←</span>
         </a>
-
       </div>
     </div>
   </section>
 
-  <!-- ═══════════ خط زمان کوتاه ═══════════ -->
+  <!-- ═══════════ خط زمان ═══════════ -->
   <section class="timeline-preview" id="timeline">
     <div class="container">
       <div class="section-header reveal">
@@ -259,4 +246,4 @@
 
   <script src="assets/js/main.js"></script>
 </body>
-</html>
+            </html>
