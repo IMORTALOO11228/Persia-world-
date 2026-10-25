@@ -1,7 +1,3 @@
-/* ═══════════════════════════════════════════════════════════
-   جهان پارس | اسکریپت صفحه تاریخ
-   ═══════════════════════════════════════════════════════════ */
-
 document.addEventListener('DOMContentLoaded', () => {
 
   const grid = document.getElementById('historyGrid');
@@ -10,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let allEras = [];
 
-  /* ─── بارگذاری داده‌ها ─── */
+  /* بارگذاری داده‌ها */
   fetch('../data/history.json')
     .then(r => r.json())
     .then(data => {
@@ -22,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       grid.innerHTML = '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;padding:60px;">دیتای تاریخی هنوز آماده نیست.</p>';
     });
 
-  /* ─── ساخت کارت‌ها ─── */
+  /* ساخت کارت‌ها با دکمه */
   function renderGrid() {
     grid.innerHTML = '';
     allEras.forEach(era => {
@@ -32,13 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
         <img class="card-flag" src="../assets/images/flags/${era.flag}" alt="پرچم ${era.name_fa}" onerror="this.style.display='none'">
         <h3>${era.name_fa}</h3>
         <span class="card-years">${era.years_fa}</span>
+        <button class="card-view-btn" data-id="${era.id}">مشاهده جزئیات ←</button>
       `;
-      card.addEventListener('click', () => openDetail(era));
+      // با کلیک روی کل کارت یا دکمه، مودال باز می‌شود
+      card.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openDetail(era);
+      });
       grid.appendChild(card);
     });
   }
 
-  /* ─── باز کردن مودال ─── */
+  /* باز کردن مودال */
   function openDetail(era) {
     document.getElementById('detailName').textContent = era.name_fa;
     document.getElementById('detailYears').textContent = era.years_fa;
@@ -59,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = 'hidden';
   }
 
-  /* ─── بستن مودال ─── */
+  /* بستن مودال */
   function closeDetail() {
     overlay.classList.remove('open');
     document.body.style.overflow = '';
