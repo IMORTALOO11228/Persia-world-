@@ -6,16 +6,18 @@
   <title>تاریخ ایران | جهان پارس</title>
   <meta name="description" content="سفر در هزاره‌ها: تاریخ کامل ایران از عیلام تا جمهوری اسلامی">
 
+  <!-- فونت‌ها -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@300;400;500;700;900&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
 
+  <!-- استایل‌ها -->
   <link rel="stylesheet" href="../assets/css/main.css">
   <link rel="stylesheet" href="../assets/css/history.css">
 </head>
 <body>
 
-  <!-- هدر -->
+  <!-- ═══════════ هدر ═══════════ -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="../index.html" class="brand">
@@ -28,7 +30,7 @@
     </div>
   </header>
 
-  <!-- عنوان صفحه -->
+  <!-- ═══════════ عنوان صفحه ═══════════ -->
   <section class="page-hero">
     <div class="container">
       <nav class="breadcrumb">
@@ -40,39 +42,44 @@
     </div>
   </section>
 
-  <!-- گرید سلسله‌ها -->
+  <!-- ═══════════ گرید سلسله‌ها (محل قرارگیری کارت‌ها) ═══════════ -->
   <section class="container">
+    <!-- کارت‌های ۳۳ سلسله توسط فایل history.js به این div تزریق می‌شوند -->
     <div class="history-grid" id="historyGrid">
-      <!-- کارت‌های ۳۳ سلسله توسط فایل history.js در اینجا ساخته می‌شوند -->
+      <!-- لودینگ اولیه (تا زمانی که جاوااسکریپت لود شود) -->
+      <p style="color: var(--text-muted); text-align: center; grid-column: 1/-1; padding: 50px;">در حال بارگذاری تاریخ...</p>
     </div>
   </section>
 
-  <!-- مودال جزئیات (پنجره بازشو) -->
+  <!-- ═══════════ پنجره جزئیات (مودال) ═══════════ -->
   <div class="detail-overlay" id="detailOverlay">
     <div class="detail-box">
       <button class="detail-close" id="detailClose" aria-label="بستن">✕</button>
 
-      <!-- بخش بالا: نقشه + پرچم بزرگ -->
+      <!-- بخش بالا: پرچم و نقشه -->
       <div class="detail-top">
         <div class="detail-flag-wrap">
-          <img id="detailFlag" src="" alt="پرچم">
+          <img id="detailFlag" src="" alt="پرچم سلسله">
         </div>
         <div class="detail-map-wrap">
           <img id="detailMap" src="" alt="نقشه قلمرو">
         </div>
       </div>
 
-      <!-- اطلاعات -->
+      <!-- بخش اطلاعات -->
       <h2 id="detailName"></h2>
+      
       <div class="detail-meta">
         <span id="detailYears"></span>
         <span id="detailCapital"></span>
       </div>
+
+      <!-- متن توضیحات -->
       <div class="detail-body" id="detailBody"></div>
     </div>
   </div>
 
-  <!-- فوتر -->
+  <!-- ═══════════ فوتر ═══════════ -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-logo">جهان پارس</div>
@@ -87,8 +94,8 @@
     </div>
   </footer>
 
-  <!-- 🚨 این خط بسیار مهم است! فایل جاوااسکریپت را به صفحه وصل می‌کند و با نسخه جدید از کش شدن جلوگیری می‌کند -->
-  <script src="../assets/js/history.js?v=9999"></script>
+  <!-- 🚨 اسکریپت اصلی با نسخه جدید برای جلوگیری از کش شدن -->
+  <script src="../assets/js/history.js?v=10005"></script>
 
 </body>
 </html>
