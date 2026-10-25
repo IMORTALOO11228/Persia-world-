@@ -9,17 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Vazirmatn:wght@300;400;500;700;900&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/main.css">
   <style>
-    /* استایل‌های مخصوص این صفحه */
-    .page-hero {
-      padding: 100px 24px 60px;
-      text-align: center;
-      position: relative;
-    }
-    .breadcrumb {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      margin-bottom: 20px;
-    }
+    .page-hero { padding: 100px 24px 60px; text-align: center; position: relative; }
+    .breadcrumb { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px; }
     .breadcrumb a { color: var(--gold); }
     .breadcrumb span { margin: 0 8px; }
 
@@ -42,111 +33,69 @@
     }
     .creature-card::before {
       content: '✦';
-      position: absolute;
-      top: 8px;
-      right: 12px;
-      color: var(--gold);
-      font-size: 0.7rem;
-      opacity: 0.5;
+      position: absolute; top: 8px; right: 12px;
+      color: var(--gold); font-size: 0.7rem; opacity: 0.5;
     }
     .creature-card:hover {
       border-color: var(--gold);
       transform: translateY(-4px);
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(201, 162, 75, 0.15);
     }
-    .creature-card h3 {
-      font-family: var(--font-display);
-      font-size: 1.4rem;
-      color: var(--gold-light);
-      line-height: 1.6;
-    }
-    .creature-card .cat {
-      display: block;
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      margin-top: 8px;
-    }
+    .creature-card h3 { font-family: var(--font-display); font-size: 1.4rem; color: var(--gold-light); line-height: 1.6; }
+    .creature-card .cat { display: block; font-size: 0.75rem; color: var(--text-muted); margin-top: 8px; }
 
-    /* پنل جزئیات (modal) */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-muted);
+    }
+    .empty-state .icon {
+      font-size: 3rem;
+      color: var(--gold);
+      opacity: 0.4;
+      margin-bottom: 20px;
+    }
+    .empty-state p { font-size: 1.05rem; line-height: 2; }
+
+    /* پنل جزئیات */
     .detail-overlay {
-      position: fixed;
-      inset: 0;
+      position: fixed; inset: 0;
       background: rgba(8, 19, 45, 0.92);
       backdrop-filter: blur(8px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-      z-index: 1000;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.35s;
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px; z-index: 1000;
+      opacity: 0; pointer-events: none; transition: opacity 0.35s;
     }
-    .detail-overlay.open {
-      opacity: 1;
-      pointer-events: all;
-    }
+    .detail-overlay.open { opacity: 1; pointer-events: all; }
     .detail-box {
       background: linear-gradient(135deg, rgba(26, 42, 92, 0.95), rgba(15, 27, 61, 0.98));
       border: 1px solid var(--gold);
       border-radius: 6px;
-      max-width: 800px;
-      width: 100%;
-      max-height: 90vh;
-      overflow-y: auto;
-      padding: 40px;
-      position: relative;
+      max-width: 800px; width: 100%; max-height: 90vh; overflow-y: auto;
+      padding: 40px; position: relative;
       box-shadow: 0 0 60px rgba(201, 162, 75, 0.25);
     }
     .detail-close {
-      position: absolute;
-      top: 16px;
-      left: 16px;
-      background: transparent;
-      border: 1px solid var(--gold);
-      color: var(--gold);
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 1.2rem;
-      transition: all 0.3s;
+      position: absolute; top: 16px; left: 16px;
+      background: transparent; border: 1px solid var(--gold); color: var(--gold);
+      width: 36px; height: 36px; border-radius: 50%; cursor: pointer;
+      font-size: 1.2rem; transition: all 0.3s;
     }
     .detail-close:hover { background: var(--gold); color: var(--lapis-dark); }
-
     .detail-image {
-      width: 100%;
-      height: 300px;
-      border-radius: 4px;
+      width: 100%; height: 300px; border-radius: 4px;
       background: rgba(15, 27, 61, 0.5);
       border: 1px dashed rgba(201, 162, 75, 0.3);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-muted);
-      font-size: 0.9rem;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-muted); font-size: 0.9rem;
       margin-bottom: 24px;
-      background-size: cover;
-      background-position: center;
+      background-size: cover; background-position: center;
       overflow: hidden;
     }
-    .detail-box h2 {
-      font-family: var(--font-display);
-      font-size: 2.2rem;
-      color: var(--gold-light);
-      margin-bottom: 6px;
-      line-height: 1.5;
-    }
-    .detail-cat {
-      color: var(--turquoise);
-      font-size: 0.9rem;
-      margin-bottom: 20px;
-    }
-    .detail-body {
-      color: var(--text-primary);
-      font-size: 1rem;
-      line-height: 2;
-    }
+    .detail-box h2 { font-family: var(--font-display); font-size: 2.2rem; color: var(--gold-light); margin-bottom: 6px; line-height: 1.5; }
+    .detail-cat { color: var(--turquoise); font-size: 0.9rem; margin-bottom: 20px; }
+    .detail-body { color: var(--text-primary); font-size: 1rem; line-height: 2; }
     .detail-body p { margin-bottom: 16px; }
 
     @media (max-width: 600px) {
@@ -158,28 +107,12 @@
 </head>
 <body>
 
-  <!-- هدر مشترک -->
+  <!-- هدر ساده (بدون لوگو) -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="../index.html" class="logo">
-        <svg class="logo-mark" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
-          <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8c877"/><stop offset="1" stop-color="#8a6f32"/></linearGradient></defs>
-          <g transform="translate(70,118)"><rect x="-28" y="-4" width="56" height="8" rx="4" fill="url(#g)" opacity="0.7"/><ellipse cx="0" cy="-4" rx="28" ry="3" fill="#e8c877" opacity="0.5"/></g>
-          <rect x="64" y="55" width="12" height="52" fill="#c9a24b" opacity="0.15" stroke="url(#g)" stroke-width="1.2"/>
-          <path d="M48 55 L92 55 L86 46 L54 46 Z" fill="#c9a24b" opacity="0.2" stroke="url(#g)" stroke-width="1.2"/>
-          <g stroke="url(#g)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M54 46 Q46 42 40 36 L34 34"/><path d="M34 34 Q28 32 26 36 Q26 38 28 39"/>
-            <path d="M30 33 Q28 30 25 28"/><path d="M42 38 Q38 28 32 22 Q38 24 42 30 Q44 34 44 38"/>
-          </g>
-          <g transform="translate(140,0) scale(-1,1)" stroke="url(#g)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M54 46 Q46 42 40 36 L34 34"/><path d="M34 34 Q28 32 26 36 Q26 38 28 39"/>
-            <path d="M30 33 Q28 30 25 28"/><path d="M42 38 Q38 28 32 22 Q38 24 42 30 Q44 34 44 38"/>
-          </g>
-        </svg>
-        <div class="logo-text">
-          <span class="logo-fa">جهان پارس</span>
-          <span class="logo-en">PERSIA · WORLD</span>
-        </div>
+      <a href="../index.html" class="brand">
+        <span class="brand-fa">جهان پارس</span>
+        <span class="brand-en">PERSIA · WORLD</span>
       </a>
       <div class="header-actions">
         <a href="../index.html" class="lang-toggle" style="text-decoration:none;">← خانه</a>
@@ -200,7 +133,7 @@
     </div>
   </section>
 
-  <!-- گرید کارت‌های موجودات -->
+  <!-- گرید کارت‌های موجودات (خالی تا زمان افزودن) -->
   <section class="container">
     <div class="creatures-grid" id="creaturesGrid">
       <!-- کارت‌ها توسط JS از data/creatures.json ساخته می‌شوند -->
@@ -227,7 +160,6 @@
   </footer>
 
   <script>
-    // ─── بارگذاری داده‌ها و ساخت کارت‌ها ───
     let allCreatures = [];
 
     fetch('../data/creatures.json')
@@ -237,15 +169,17 @@
         renderGrid();
       })
       .catch(err => {
-        // اگر فایل json بارگذاری نشد (مثلاً روی file:// محلی اجرا شود)
         console.warn('خطا در بارگذاری دیتا:', err);
-        document.getElementById('creaturesGrid').innerHTML =
-          '<p style="color:var(--text-muted);text-align:center;grid-column:1/-1;padding:40px;">دیتا هنوز آماده نیست. بعداً موجودات اضافه می‌شوند.</p>';
+        showEmpty('دیتا هنوز آماده نیست.');
       });
 
     function renderGrid() {
       const grid = document.getElementById('creaturesGrid');
       grid.innerHTML = '';
+      if (allCreatures.length === 0) {
+        showEmpty('هنوز موجودی به این گنجینه افزوده نشده است.');
+        return;
+      }
       allCreatures.forEach(c => {
         const card = document.createElement('div');
         card.className = 'creature-card';
@@ -258,7 +192,16 @@
       });
     }
 
-    // ─── باز کردن پنل جزئیات ───
+    function showEmpty(message) {
+      const grid = document.getElementById('creaturesGrid');
+      grid.innerHTML = `
+        <div class="empty-state">
+          <div class="icon">✦</div>
+          <p>${message}</p>
+        </div>
+      `;
+    }
+
     function openDetail(creature) {
       document.getElementById('detailName').textContent = creature.name_fa;
       document.getElementById('detailCat').textContent = creature.category_fa || '';
@@ -277,7 +220,6 @@
       document.body.style.overflow = 'hidden';
     }
 
-    // ─── بستن پنل ───
     document.getElementById('detailClose').addEventListener('click', closeDetail);
     document.getElementById('detailOverlay').addEventListener('click', (e) => {
       if (e.target.id === 'detailOverlay') closeDetail();
@@ -291,4 +233,4 @@
     }
   </script>
 </body>
-  </html>
+</html>
