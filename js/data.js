@@ -1,4 +1,4 @@
- داده‌های مقدماتی Persia World
+ // داده‌های مقدماتی Persia World
 
 const categories = [
  {id:"dynasties",title:"حکومت‌ها و سلسله‌ها",desc:"از تمدن‌های نخستین تا حکومت‌های معاصر",icon:"⌘",url:"dynasties.html"},
@@ -38,3 +38,5 @@ const entries = {
  arts:[{title:"قالی ایرانی",subtitle:"هنر و صنعت سنتی ایران",desc:"مدخل هنر؛ پیشینه، فنون بافت، مناطق تولید و ویژگی‌های طرح و نقش بررسی می‌شود.",source:"https://fa.wikipedia.org/wiki/قالی_ایرانی",tag:"هنر سنتی"}],
  scientists:[{title:"ابن‌سینا",subtitle:"فیلسوف و پزشک ایرانی",desc:"مدخل دانشمند؛ آثار، فعالیت‌های علمی و اثرگذاری تاریخی با ارجاع به مقاله‌ی اختصاصی تکمیل می‌شود.",source:"https://fa.wikipedia.org/wiki/ابن_سینا",tag:"دانش و پزشکی"}]
 };
+window.categories = categories;
+window.entries = entries;
