@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Gulzar&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu&display=swap');
 /* =========================================
    PERSIA WORLD — ROYAL DESIGN SYSTEM
 ========================================= */
@@ -984,14 +983,91 @@ h6,
     );
 }
 
-/* =====================================
-   پس‌زمینه پایانی سایت
-===================================== */
+/* =========================================
+   PERSIA WORLD — IMPERIAL NASTALIQ & COLORS
+   فونت نستعلیق و رنگ‌های شاهنشاهی
+========================================= */
 
-.site-footer {
-    background: linear-gradient(
-        120deg,
-        #e7d3b2,
-        #d8bd8a
-    );
+/* 1. فونت نستعلیق برای تمام عنوان‌ها */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.eyebrow {
+    font-family: "Gulzar", "Noto Nastaliq Urdu", serif !important;
+}
+
+/* 2. کرمی سوخته برای پس‌زمینه اصلی */
+
+:root {
+    --parchment: #e2cba5;
+}
+
+/* 3. گرادیانت آبی پارسی و طلایی برای سربرگ */
+
+.site-header {
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(205, 166, 82, 0.22),
+            transparent 38%
+        ),
+        linear-gradient(
+            115deg,
+            #102b49 0%,
+            #173e65 68%,
+            #765a2b 120%
+        ) !important;
+}
+
+/* 4. گرادیانت شاهنشاهی برای کارت‌های اصلی */
+
+.category-card,
+.category-card:nth-child(n) {
+    background:
+        radial-gradient(
+            circle at 85% 15%,
+            rgba(220, 183, 99, 0.28),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #1a426b 0%,
+            #102b49 68%,
+            #755827 115%
+        ) !important;
+}
+
+/* 5. گرادیانت بخش ویژه خط زمانی */
+
+.timeline-promo {
+    background:
+        radial-gradient(
+            circle at 85% 15%,
+            rgba(220, 183, 99, 0.30),
+            transparent 38%
+        ),
+        linear-gradient(
+            115deg,
+            #102b49,
+            #19436d 65%,
+            #96722f
+        ) !important;
+}
+
+/* 6. هاله آبی و طلایی برای کارت‌های اطلاعاتی */
+
+.timeline-card,
+.entry-card,
+.article-panel {
+    background:
+        linear-gradient(
+            125deg,
+            rgba(24, 61, 99, 0.16),
+            rgba(194, 151, 64, 0.23)
+        ),
+        var(--paper) !important;
 }
