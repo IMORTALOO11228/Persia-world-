@@ -1178,3 +1178,200 @@ body:has(.page-main) .page-title .eyebrow {
         ),
         var(--paper) !important;
 }
+
+/* =========================================
+   PERSIA WORLD — TYPOGRAPHY ENHANCEMENT
+   افزایش اندازه نوشته‌ها بدون تغییر طراحی
+========================================= */
+
+/* اندازه پایه نوشته‌ها */
+
+body {
+    font-size: 17px;
+}
+
+/* متن‌های توضیحی */
+
+body p,
+body li {
+    font-size: 17px !important;
+    line-height: 2.15;
+}
+
+/* منوی اصلی */
+
+.main-nav a {
+    font-size: 17px;
+}
+
+/* نام سایت */
+
+.brand strong {
+    font-size: 25px;
+}
+
+.brand small {
+    font-size: 14px;
+}
+
+/* نوشته کوچک بالای عنوان‌ها */
+
+.eyebrow {
+    font-size: 16px;
+}
+
+/* عنوان بزرگ صفحه اصلی */
+
+.hero h1 {
+    font-size: clamp(49px, 7vw, 88px);
+}
+
+.hero-lead {
+    font-size: 19px;
+    line-height: 2.2;
+}
+
+/* عنوان بخش‌های صفحه اصلی */
+
+.section-heading h2 {
+    font-size: 40px;
+}
+
+/* کارت‌های اصلی */
+
+.category-card h3 {
+    font-size: 22px;
+}
+
+.category-card p {
+    font-size: 16px;
+}
+
+/* بخش خط زمانی */
+
+.timeline-promo h2 {
+    font-size: 39px;
+}
+
+.timeline-promo p {
+    font-size: 17px;
+}
+
+/* عنوان صفحات داخلی */
+
+.page-title h1 {
+    font-size: 47px;
+}
+
+.page-title p {
+    font-size: 18px;
+}
+
+/* جست‌وجو و فیلترها */
+
+.timeline-tools input,
+.timeline-tools select,
+.section-toolbar input {
+    font-size: 17px;
+}
+
+.result-count {
+    font-size: 16px;
+}
+
+/* کارت‌های اطلاعاتی */
+
+.timeline-card h3,
+.entry-card h2,
+.article-panel h2 {
+    font-size: 29px;
+}
+
+.timeline-card p,
+.entry-card p,
+.article-panel p {
+    font-size: 17px;
+    line-height: 2.2;
+}
+
+/* تاریخ‌ها و برچسب‌ها */
+
+.timeline-date,
+.entry-tag {
+    font-size: 16px;
+}
+
+/* دکمه‌ها و لینک‌ها */
+
+.btn,
+.btn-outline,
+.text-link {
+    font-size: 17px;
+}
+
+/* پاورقی */
+
+.footer-brand {
+    font-size: 32px;
+}
+
+.site-footer p,
+.site-footer small {
+    font-size: 15px;
+}
+
+/* =========================================
+   نسخه موبایل
+========================================= */
+
+@media (max-width: 650px) {
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero-lead {
+        font-size: 17px;
+    }
+
+    .section-heading h2 {
+        font-size: 33px;
+    }
+
+    .category-card h3 {
+        font-size: 19px;
+    }
+
+    .category-card p {
+        font-size: 15px;
+    }
+
+    .page-title h1 {
+        font-size: 36px;
+    }
+
+    .page-title p {
+        font-size: 16px;
+    }
+
+    .timeline-card h3,
+    .entry-card h2,
+    .article-panel h2 {
+        font-size: 25px;
+    }
+
+    .timeline-card p,
+    .entry-card p,
+    .article-panel p {
+        font-size: 16px;
+    }
+
+    .main-nav a {
+        font-size: 16px;
+    }
+
+    .brand strong {
+        font-size: 22px;
+    }
+}
+
