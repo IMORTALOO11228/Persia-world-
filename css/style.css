@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
 /* =========================================
    PERSIA WORLD — ROYAL DESIGN SYSTEM
 ========================================= */
@@ -918,3 +917,81 @@ select {
     transition-duration: .01ms !important;
   }
     }
+/* =====================================
+   فونت نستعلیق برای تمام عنوان‌های سایت
+===================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.eyebrow {
+    font-family: "Gulzar", "Noto Nastaliq Urdu", serif;
+    font-weight: 400;
+    line-height: 2;
+}
+
+/* =====================================
+   کاغذ کهن و کرمی سوخته
+===================================== */
+
+:root {
+    --paper: #e4cfad;
+    --paper2: #d8bd91;
+}
+
+/* =====================================
+   پس‌زمینه گرادیانت آبی پارسی و طلایی
+===================================== */
+
+.hero {
+    background:
+        radial-gradient(
+            ellipse at 80% 45%,
+            rgba(190, 145, 52, 0.20),
+            transparent 40%
+        ),
+        linear-gradient(
+            115deg,
+            rgba(16, 43, 77, 0.09),
+            rgba(196, 151, 59, 0.16)
+        );
+}
+
+.category-card,
+.timeline-card,
+.entry-card,
+.article-panel {
+    background: linear-gradient(
+        135deg,
+        rgba(16, 43, 77, 0.13),
+        rgba(190, 148, 57, 0.20)
+    );
+}
+
+/* =====================================
+   بخش ویژه خط زمانی
+===================================== */
+
+.timeline-promo {
+    background: linear-gradient(
+        115deg,
+        #102c50 0%,
+        #183d68 57%,
+        #a77c32 100%
+    );
+}
+
+/* =====================================
+   پس‌زمینه پایانی سایت
+===================================== */
+
+.site-footer {
+    background: linear-gradient(
+        120deg,
+        #e7d3b2,
+        #d8bd8a
+    );
+}
