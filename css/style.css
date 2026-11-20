@@ -1071,3 +1071,110 @@ h6,
         ),
         var(--paper) !important;
 }
+
+/* ==========================================
+   PERSIA WORLD — FINAL IMPERIAL THEME
+   نستعلیق سراسری، کاغذ کهن و گرادیانت پارسی
+========================================== */
+
+/* 1. تمام نوشته‌های سایت با نستعلیق */
+
+body,
+body *,
+body *::before,
+body *::after,
+input,
+textarea,
+select,
+button {
+    font-family: "Gulzar", "Noto Nastaliq Urdu", serif !important;
+}
+
+/* نوشته‌های داخل کادرهای ورودی */
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Gulzar", "Noto Nastaliq Urdu", serif !important;
+}
+
+/* 2. پس‌زمینه صفحه اصلی: کرمی سوخته و بافت کاغذ کهن */
+
+body:has(.hero) {
+    background:
+        radial-gradient(
+            ellipse at 15% 12%,
+            rgba(255, 235, 195, 0.13),
+            transparent 42%
+        ),
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            transparent 4px,
+            rgba(65, 43, 20, 0.075) 5px
+        ),
+        #b99b6e !important;
+}
+
+/* 3. بازگرداندن تصویر اصلی تخت جمشید در صفحه خانه */
+
+.hero {
+    background:
+        linear-gradient(
+            270deg,
+            rgba(5, 14, 23, 0.96) 0%,
+            rgba(10, 27, 43, 0.88) 40%,
+            rgba(10, 28, 45, 0.53) 74%,
+            rgba(10, 22, 34, 0.34) 100%
+        ),
+        url("https://upload.wikimedia.org/wikipedia/commons/a/a2/Sunset_of_Achaemenid.jpg")
+        center / cover no-repeat !important;
+}
+
+/* 4. پس‌زمینه کامل صفحات داخلی:
+   آبی تیره پارسی تا طلایی شاهنشاهی */
+
+body:has(.page-main) {
+    background:
+        linear-gradient(
+            125deg,
+            #091f39 0%,
+            #12395f 36%,
+            #1d4c70 62%,
+            #80602b 100%
+        ) fixed !important;
+}
+
+/* اجازه می‌دهیم گرادیانت کل صفحه دیده شود */
+
+body:has(.page-main) .page-main {
+    background: transparent !important;
+}
+
+/* 5. عنوان صفحات داخلی با رنگ روشن و خوانا */
+
+body:has(.page-main) .page-title h1 {
+    color: #f3d99c !important;
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.35);
+}
+
+body:has(.page-main) .page-title p {
+    color: #f1e6ce !important;
+}
+
+body:has(.page-main) .page-title .eyebrow {
+    color: #e6bd69 !important;
+}
+
+/* 6. حفظ رنگ و ظاهر کارت‌های محتوایی */
+
+.timeline-card,
+.entry-card,
+.article-panel {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(25, 62, 100, 0.16),
+            rgba(194, 151, 64, 0.23)
+        ),
+        var(--paper) !important;
+}
